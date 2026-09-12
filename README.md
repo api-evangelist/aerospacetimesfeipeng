@@ -1,4 +1,4 @@
-# Aerospacetimesfeipeng
+# Aerospace Times Feipeng
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aerospacetimesfeipeng is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/aerospacetimesfeipeng
+Aerospace Times Feipeng Co., Ltd. (航天时代飞鹏有限公司) is a Chinese unmanned transport aircraft
+manufacturer founded in 2020 in the Huaqiao Economic Development Zone of Kunshan, Jiangsu, as a
+mixed-ownership enterprise launched by the China Aerospace Science and Technology Corporation (CASC)
+together with SF Express. It designs, manufactures and operates cargo UAV systems across three
+payload/range classes — Double 1000 (1000 kg / 1000 km trunk-line), Double 100 (branch-line) and
+Double 10 (last-mile) — alongside special aircraft, ground control stations, an unmanned aircraft
+operation control system, and an AOPA-certified UAV pilot training centre. Its FP-98 "Leo" large
+fixed-wing UAV received a CAAC type certificate in April 2024.
+
+## API surface
+
+**None found.** The 2026-09-12 enrichment pass probed the company's public web presence
+(https://www.htsdfp.com/, Chinese and English) and found a hardware marketing site with no
+developer, API, SDK or integration section, no occurrence of "API", "SDK", "接口" or "开发者" in the
+page source, no GitHub organisation, no packages on npm/PyPI, and NXDOMAIN on
+api./developer./docs./open./uav.htsdfp.com. Every named `/.well-known/` path returns 404 on both
+hosts — recorded in [`well-known/`](well-known/aerospacetimesfeipeng-well-known.yml). The company's
+"无人机运行管控系统" (UAV operation control system) is delivered as an enterprise system, not as a
+callable service.
+
+Domain/DNS/TLS posture was probed and is recorded in
+[`security/`](security/aerospacetimesfeipeng-domain-security.yml).
+
+- Website: https://www.htsdfp.com/
+- Secondary-market listing: https://equityzen.com/company/aerospacetimesfeipeng

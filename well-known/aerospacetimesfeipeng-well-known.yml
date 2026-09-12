@@ -1,0 +1,40 @@
+generated: '2026-09-12'
+method: probed
+source: https://www.htsdfp.com/
+note: >-
+  Every named /.well-known/ path was probed on both hosts the record knows (www.htsdfp.com and the
+  apex htsdfp.com). There are no API baseURL hosts, no OpenAPI servers[] hosts and no separate docs
+  or console host, because Aerospace Times Feipeng publishes no API. DNS for api., developer.,
+  docs., open. and uav.htsdfp.com is NXDOMAIN. Every path returned 404 with a plain "404" body, so
+  NO WellKnown / SecurityTxt / AgentCard pointer is emitted — this file records a verified absence,
+  not a presence. Note the site serves robots.txt "User-agent: * / Disallow: /"; these probes are
+  of named discovery paths only.
+hosts:
+- host: www.htsdfp.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: htsdfp.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
