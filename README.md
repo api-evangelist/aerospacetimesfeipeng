@@ -64,28 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aerospace Times Feipeng Co., Ltd. (航天时代飞鹏有限公司) is a Chinese unmanned transport aircraft
-manufacturer founded in 2020 in the Huaqiao Economic Development Zone of Kunshan, Jiangsu, as a
-mixed-ownership enterprise launched by the China Aerospace Science and Technology Corporation (CASC)
-together with SF Express. It designs, manufactures and operates cargo UAV systems across three
-payload/range classes — Double 1000 (1000 kg / 1000 km trunk-line), Double 100 (branch-line) and
-Double 10 (last-mile) — alongside special aircraft, ground control stations, an unmanned aircraft
-operation control system, and an AOPA-certified UAV pilot training centre. Its FP-98 "Leo" large
-fixed-wing UAV received a CAAC type certificate in April 2024.
+Aerospace Times Feipeng Co., Ltd. (航天时代飞鹏有限公司) is a Chinese unmanned transport aircraft manufacturer founded in 2020 in the Huaqiao Economic Development Zone of Kunshan, Jiangsu, as a mixed-ownership enterprise launched by the China Aerospace Science and Technology Corporation (CASC) together with SF Express. It designs, manufactures and operates cargo UAV systems across three payload/range classes — the Double 1000 (1000 kg / 1000 km trunk-line), Double 100 (branch-line) and Double 10 (last-mile) series — alongside special aircraft, ground control stations, an unmanned aircraft operation control system, and an AOPA-certified UAV pilot training centre. Its FP-98 "Leo" large fixed-wing UAV received a CAAC type certificate in April 2024. The company publishes a corporate marketing website in Chinese and English; it operates no public developer program and publishes no machine-readable API contract.
 
-## API surface
+**Areas:** Company · Aerospace · Drones · UAV · Logistics · Manufacturing · Aviation · Low Altitude Economy · China
 
-**None found.** The 2026-09-12 enrichment pass probed the company's public web presence
-(https://www.htsdfp.com/, Chinese and English) and found a hardware marketing site with no
-developer, API, SDK or integration section, no occurrence of "API", "SDK", "接口" or "开发者" in the
-page source, no GitHub organisation, no packages on npm/PyPI, and NXDOMAIN on
-api./developer./docs./open./uav.htsdfp.com. Every named `/.well-known/` path returns 404 on both
-hosts — recorded in [`well-known/`](well-known/aerospacetimesfeipeng-well-known.yml). The company's
-"无人机运行管控系统" (UAV operation control system) is delivered as an enterprise system, not as a
-callable service.
+## Aerospace Times Feipeng on APIs.io
 
-Domain/DNS/TLS posture was probed and is recorded in
-[`security/`](security/aerospacetimesfeipeng-domain-security.yml).
+Everything profiled for Aerospace Times Feipeng is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aerospacetimesfeipeng/](https://apis.io/providers/aerospacetimesfeipeng/)** — or go straight to one of the APIs or properties below.
 
-- Website: https://www.htsdfp.com/
-- Secondary-market listing: https://equityzen.com/company/aerospacetimesfeipeng
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aerospacetimesfeipeng Domain Security](https://apis.io/security/aerospacetimesfeipeng/aerospacetimesfeipeng-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.htsdfp.com/)
+- [Support](https://www.htsdfp.com/ContactUs)
+- [Blog](https://www.htsdfp.com/New)
+
+## API Evangelist rating
+
+**Kin Score 4.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aerospacetimesfeipeng/](https://apis.io/providers/aerospacetimesfeipeng/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aerospace Times Feipeng: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aerospacetimesfeipeng/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
